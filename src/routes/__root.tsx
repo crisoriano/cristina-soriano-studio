@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Portfolio Cristina Soriano" },
+      { name: "description", content: "A premium personal portfolio showcasing a blend of emotional intelligence, business acumen, and creative vision." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Portfolio Cristina Soriano" },
+      { property: "og:description", content: "A premium personal portfolio showcasing a blend of emotional intelligence, business acumen, and creative vision." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Portfolio Cristina Soriano" },
+      { name: "twitter:description", content: "A premium personal portfolio showcasing a blend of emotional intelligence, business acumen, and creative vision." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aa883318-0ba2-4746-badb-f6454b01705e/id-preview-3e6d9eef--0d455f13-fb0e-4d62-901d-dd836d36467d.lovable.app-1778616931630.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/aa883318-0ba2-4746-badb-f6454b01705e/id-preview-3e6d9eef--0d455f13-fb0e-4d62-901d-dd836d36467d.lovable.app-1778616931630.png" },
     ],
     links: [
       {
