@@ -95,7 +95,7 @@ function ContactRow({ label, value, href }: { label: string; value: string; href
       </span>
     </div>
   );
-  return href ? <a href={href}>{inner}</a> : inner;
+  return href ? <a href={href} target="_blank" rel="noopener noreferrer">{inner}</a> : inner;
 }
 
 function Field({ label, name, type = "text" }: { label: string; name: string; type?: string }) {
