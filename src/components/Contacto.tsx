@@ -28,10 +28,10 @@ export function Contacto() {
               <ContactRow label="Email" value="cristina.soriano@meycar.es" href="mailto:cristina.soriano@meycar.es" />
             </Reveal>
             <Reveal delay={0.05}>
-              <ContactRow label="LinkedIn" value="Cristina Soriano" href="https://www.linkedin.com/" />
+              <ContactRow label="LinkedIn" value="Cristina Soriano González" href="https://www.linkedin.com/in/cristina-soriano-gonzalez" />
             </Reveal>
             <Reveal delay={0.1}>
-              <ContactRow label="Currículum" value="Descargar CV (PDF)" href="#" />
+              <ContactRow label="Currículum" value="Descargar CV (PDF)" href="/CV_Cristina_Soriano_Gonzalez.pdf" />
             </Reveal>
             <Reveal delay={0.15}>
               <ContactRow label="Ubicación" value="Madrid, España · Disponible para viajar" />
@@ -95,7 +95,7 @@ function ContactRow({ label, value, href }: { label: string; value: string; href
       </span>
     </div>
   );
-  return href ? <a href={href}>{inner}</a> : inner;
+  return href ? <a href={href} target="_blank" rel="noopener noreferrer">{inner}</a> : inner;
 }
 
 function Field({ label, name, type = "text" }: { label: string; name: string; type?: string }) {
