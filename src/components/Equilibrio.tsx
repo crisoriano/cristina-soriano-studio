@@ -16,8 +16,8 @@ export function Equilibrio() {
           intro="Tres planos que se alimentan entre sí: lo social como combustible, el arte como refugio, el deporte como disciplina."
         />
 
-        <div className="mt-16 grid md:grid-cols-12 gap-6">
-          <Reveal className="md:col-span-7 md:row-span-2">
+        <div className="mt-16 grid md:grid-cols-12 gap-6 md:auto-rows-fr">
+          <Reveal className="md:col-span-7 md:row-span-3">
             <div className="relative aspect-[4/5] md:aspect-auto md:h-full rounded-2xl overflow-hidden shadow-soft">
               <img src={creative} alt="Refugio creativo: arte, música y lectura" loading="lazy" width={1200} height={1200} className="w-full h-full object-cover" />
               <div className="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-foreground/70 to-transparent text-background">
